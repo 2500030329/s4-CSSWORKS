@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nagivation Links</title>
+        <style>
+            .container{
+                display: flex;
+                flex-direction: column;
+                background-color: #fcc1d9;
+                gap: 5px;
+            }
+            .logo{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: hsl(320, 79%, 84%);
+            }
+            .btn-login{
+                text-decoration: none;
+                border: 1px solid #f9e6ed;
+                margin: 2px;
+                padding: 5px;
+                background-color: hsl(315, 94%, 87%);
+            }
+            .login-link{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .navigation{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGyknSsthY-8r69bCUDwgRK1TmHI3SYMfO92qx8AVlA&s=10" alt="Logo" style="height: 100px; width: 100px;">
+                <div class="search">
+                    <input type="search" placeholder="Search Products">
+                    <button class="btn-search">Search</button>
+                </div>
+                <div class="login-link">
+                    <a href="#" class="btn-login">Login</a>
+                    <a href="#" class="btn-login">Register</a>
+                    <a href="#" class="btn-login">Logout</a>
+                </div>
+            </div>
+            <div class="navigation">
+                <a href="#" class="btn-login">Fashion</a>
+                <a href="#" class="btn-login">Groseries</a>
+                <a href="#" class="btn-login">Sports</a>
+                <a href="#" class="btn-login">Beauty</a>
+                <a href="#" class="btn-login">Mobiles</a>
+                <a href="#" class="btn-login">Electronics</a>
+                <a href="#" class="btn-login">Books</a>
+            </div>
+        </div>
+    </body>
+</html>
